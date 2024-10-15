@@ -1,0 +1,17 @@
+.container {
+  padding: 10px 20px;
+  background-color: #f6cbfa;
+  border-radius: 25px;  
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: inline-block;
+}
+
+.container:hover {
+  background-color: #ddd;
+}
+
+.selected {
+  background-color: rgb(229, 154, 247);
+}
